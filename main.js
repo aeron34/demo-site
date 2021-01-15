@@ -18,7 +18,7 @@ var knx = knex({
     database: 'node'
   }
 });
-
+let n;
 app.get('/', (req, res) =>
 {
     res.sendFile(path.join(__dirname + '/index.html'));
